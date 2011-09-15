@@ -19,6 +19,7 @@ io = require('socket.io').listen(app)
 io.sockets.on 'connection', (socket) ->
   socket.on '/push/post', (data) ->
     data.time = (new Date).getTime()
+    data.address = socket.handshake.address.address
     channel = '/pub/' + data.room
     io.sockets.emit channel, data
 
