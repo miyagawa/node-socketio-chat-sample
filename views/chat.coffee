@@ -94,10 +94,10 @@ body {
   body ->
     h1 class: "chat-room-name", ->
       "Chat room: #{@room}"
-    span "Your email (for Gravatar): "
+    text "Your email (for Gravatar): "
     input id: "ident", type: "text", name: "ident", size: 24
     form '#form', ->
-      span "Something to say: "
+      text "Something to say: "
       input id: "chat", type: "text", size: 48
 
     table id: 'messages'
