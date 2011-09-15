@@ -1,15 +1,20 @@
-This is a comet-based chat application originally written for:
+This is a port of comet-based chat application found at:
 
-  - Perl http://dev.perl.org/
+  https://github.com/miyagawa/Tatsumaki/tree/master/eg/chat
+
+It was originally written for:
+
+  - Perl5 http://www.perl.org/
   - Tatsumaki http://github.com/miyagawa/Tatsumaki
   - Twiggy http://github.com/miyagawa/Twiggy
   - jquery-ev https://github.com/beppu/jquery-ev
   - DUI Stream https://github.com/digg/stream
 
-and is ported to:
+and now uses:
 
   - node.js http://nodejs.org/
   - express.js http://expressjs.com/
   - CoffeeScript http://jashkenas.github.com/coffee-script/
   - CoffeeKup https://github.com/mauricemach/coffeekup
   - socket.io http://socket.io/
+
