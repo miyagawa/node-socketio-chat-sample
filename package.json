@@ -1,0 +1,18 @@
+{
+  "author": "Tatsuhiko Miyagawa",
+  "name": "socketio-chat-sample",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/miyagawa/node-socketio-chat-sample.git"
+  },
+  "engines": {
+    "node": "~0.4.8"
+  },
+  "dependencies": {
+    "coffeekup": "~0.3.0",
+    "express": "~2.4.6",
+    "socket.io": "~0.8.4"
+  },
+  "devDependencies": {}
+}
